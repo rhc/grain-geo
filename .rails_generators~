@@ -27,6 +27,88 @@ scss:assets:
 - --skip
 - --skip-namespace
 - --old-style-hash
+rspec:helper:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --helper-specs
+rspec:mailer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+rspec:view:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --template-engine=
+rspec:install:
+- --force
+- --pretend
+- --quiet
+- --skip
+rspec:integration:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --request-specs
+- --webrat
+- --webrat-matchers
+rspec:model:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --fixture
+- --fixture-replacement=
+rspec:scaffold:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --force-plural
+- --orm=
+- --template-engine=
+- --singleton
+- --controller-specs
+- --view-specs
+- --webrat
+- --webrat-matchers
+- --helper-specs
+- --routing-specs
+- --integration-tool=
+rspec:controller:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
+- --template-engine=
+- --controller-specs
+- --view-specs
+rspec:observer:
+- --force
+- --pretend
+- --quiet
+- --skip
+- --skip-namespace
+- --old-style-hash
 jquery:install:
 - --force
 - --pretend

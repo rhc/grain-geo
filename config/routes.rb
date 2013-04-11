@@ -1,4 +1,16 @@
 GrainGeo::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/presentation"
+
+  get "static_pages/services"
+
+  get "static_pages/realisations"
+
+  get "static_pages/resources"
+
+  get "static_pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
