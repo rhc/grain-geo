@@ -1,0 +1,9 @@
+= Grain-geo web site
+Christian Kyony <ckyony@changamuka.com>
+
+Web site developed for Grain Geo, 
+a consulting company in Democratic Republic of the Congo.
+
+You can see the live site http://www.grain-geo.com/[here].
+
+
