@@ -8,16 +8,15 @@ gem 'rails', '3.2.13'
 
 
 gem 'pg', '0.12.2'
-
-group :development do
-  gem 'haml-rails', '0.4'
-end
+gem 'bootstrap-sass', '2.3.1.0'
+gem 'redcarpet', '2.2.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'haml-rails', '0.4'
 end
 
 
