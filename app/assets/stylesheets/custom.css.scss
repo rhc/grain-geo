@@ -57,6 +57,8 @@ p {
   line-height: 1.7em;
 }
 
+/* button */
+
 
 /* footer */
 footer {
@@ -68,4 +70,14 @@ footer {
   small {
     float: center;
   }
+}
+
+img {
+  height: 420px;
+  width: 420px;
+}
+
+.img-free {
+  height: auto;
+  width: auto;
 }

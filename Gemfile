@@ -7,7 +7,6 @@ gem 'haml-rails', '0.4'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 #
 
-
 gem 'pg', '0.12.2'
 gem 'bootstrap-sass', '2.3.1.0'
 
