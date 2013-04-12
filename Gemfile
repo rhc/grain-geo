@@ -9,7 +9,6 @@ gem 'rails', '3.2.13'
 
 gem 'pg', '0.12.2'
 gem 'bootstrap-sass', '2.3.1.0'
-gem 'redcarpet', '2.2.2'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
@@ -41,7 +40,7 @@ gem 'jquery-rails', '2.2.1'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn', '4.6.2'
 
 # Deploy with Capistrano
 # gem 'capistrano'

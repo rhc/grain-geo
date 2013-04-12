@@ -21406,3 +21406,396 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/sondage-mabende.jpg" for 127.0.0.1 at 2013-04-12 18:01:45 +0200
 Served asset /sondage-mabende.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-12 18:03:30 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.haml within layouts/application (4.6ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sondage-mabende.jpg" for 127.0.0.1 at 2013-04-12 18:03:31 +0200
+Served asset /sondage-mabende.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 36ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sondage-mabende.jpg" for 127.0.0.1 at 2013-04-12 18:06:23 +0200
+Served asset /sondage-mabende.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 47ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:25 +0200
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /custom.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/echantillon-kanenge.jpg" for 127.0.0.1 at 2013-04-12 18:06:38 +0200
+Served asset /echantillon-kanenge.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Processing by StaticPagesController#resources as HTML
+  Rendered static_pages/resources.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (2.6ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /custom.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/echantillon-kanenge.jpg" for 127.0.0.1 at 2013-04-12 18:07:27 +0200
+Served asset /echantillon-kanenge.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /custom.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/echantillon-kanenge.jpg" for 127.0.0.1 at 2013-04-12 18:07:33 +0200
+Served asset /echantillon-kanenge.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sondage-mabende.jpg" for 127.0.0.1 at 2013-04-12 18:07:44 +0200
+Served asset /sondage-mabende.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 13ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /static_pages.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:46 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /custom.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/echantillon-kanenge.jpg" for 127.0.0.1 at 2013-04-12 18:07:48 +0200
+Served asset /echantillon-kanenge.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-04-12 18:07:50 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.0ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:50 +0200
+Served asset /custom.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:50 +0200
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/echantillon-kanenge.jpg" for 127.0.0.1 at 2013-04-12 18:07:51 +0200
+Served asset /echantillon-kanenge.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
