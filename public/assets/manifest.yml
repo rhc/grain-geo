@@ -1,6 +1,8 @@
 ---
 echantillon-kanenge.jpg: echantillon-kanenge-f11ac9d277f0e3101107b06ced82443d.jpg
 echantillon-kanenge/index.jpg: echantillon-kanenge-f11ac9d277f0e3101107b06ced82443d.jpg
+logo-grain.jpg: logo-grain-22dcc991f1557cedc2218ba27093d3a6.jpg
+logo-grain/index.jpg: logo-grain-22dcc991f1557cedc2218ba27093d3a6.jpg
 logo-grain.png: logo-grain-3cdbaa4da5f65df5b56274395144ba43.png
 logo-grain/index.png: logo-grain-3cdbaa4da5f65df5b56274395144ba43.png
 mining.jpg: mining-ff5cfb67e90eec545fb4cefb5aa82aac.jpg
@@ -17,8 +19,8 @@ tranchees-nguba-buzango.jpg: tranchees-nguba-buzango-157b65c90748cf670e59968ca80
 tranchees-nguba-buzango/index.jpg: tranchees-nguba-buzango-157b65c90748cf670e59968ca80c4610.jpg
 application.js: application-cb826ef5014e3e06be2b4fd11698bcb4.js
 application/index.js: application-cb826ef5014e3e06be2b4fd11698bcb4.js
-application.css: application-1733c242d5c439604b37aaebfaa53195.css
-application/index.css: application-1733c242d5c439604b37aaebfaa53195.css
+application.css: application-f905d66677ae6b32e9768a417af5898c.css
+application/index.css: application-f905d66677ae6b32e9768a417af5898c.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png

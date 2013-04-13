@@ -40,7 +40,7 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -80,4 +80,10 @@ img {
 .img-free {
   height: auto;
   width: auto;
+}
+
+.logo {
+  height: 100px;
+  width: 280px;
+  background: transparent;
 }

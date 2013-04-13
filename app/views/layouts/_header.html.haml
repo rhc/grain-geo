@@ -1,8 +1,9 @@
 %body
-  %header.navbar.navbar-fixed-top.navbar-inverse
+  %header.navbar.navbar-fixed-top
     .navbar-inner
       .container
-        %h2.brand= link_to "Grain Geo", root_path, id: "logo"
+        %a.brand{:href => '/'}
+          %img.logo{:src => '/assets/logo-grain.jpg', :height => '20px'}
         %nav.nav-pills
           %ul.nav.pull-right
             %li= link_to "Acceuil", root_path
