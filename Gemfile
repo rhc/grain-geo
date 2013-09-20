@@ -11,6 +11,7 @@ gem 'haml-rails'
 
 gem 'pg'
 gem 'bootstrap-sass'
+gem 'sitemap_generator'
 
 group :development, :test do
   gem 'rspec-rails'
