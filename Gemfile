@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 gem 'rails', '4.0.0'
 gem 'haml-rails'
 
@@ -45,5 +46,8 @@ group :doc do
 end
 
 
+group :production do
+  gem  'rails_12factor'
+end
 
 
