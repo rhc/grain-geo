@@ -44912,3 +44912,255 @@ Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 11:12:25 +
 
 
 Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 11:12:25 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:10:04 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (9.4ms)
+  Rendered layouts/_header.html.haml (8.0ms)
+  Rendered layouts/_footer.html.haml (2.2ms)
+Completed 200 OK in 981ms (Views: 979.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 14:10:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (15.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (25.5ms)
+  Rendered layouts/_header.html.haml (7.3ms)
+  Rendered layouts/_footer.html.haml (2.2ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:10:14 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (9.3ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:10:17 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-20 14:10:17 +0200
+Processing by StaticPagesController#resources as HTML
+  Rendered static_pages/resources.html.haml within layouts/application (8.6ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:10:19 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (7.1ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.3ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:21 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.2ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.9ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:25 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.9ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-20 14:10:26 +0200
+Processing by StaticPagesController#services as HTML
+  Rendered static_pages/services.html.haml within layouts/application (9.1ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:10:29 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:10:31 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:33 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.9ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:10:36 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:10:38 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-20 14:10:40 +0200
+Processing by StaticPagesController#resources as HTML
+  Rendered static_pages/resources.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:10:41 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:10:43 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.1ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:11:18 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-20 14:11:20 +0200
+Processing by StaticPagesController#realisations as HTML
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 14:13:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.7ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-09-20 14:13:51 +0200
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 108ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-20 14:13:53 +0200
+Processing by StaticPagesController#resources as HTML
+  Rendered static_pages/resources.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
