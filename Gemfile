@@ -1,39 +1,27 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
-gem 'haml-rails', '0.4'
+gem 'rails', '4.0.0'
+gem 'haml-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 #
 
-gem 'pg', '0.12.2'
-
-
-
-gem 'bootstrap-sass', '2.3.1.0'
+gem 'pg'
+gem 'bootstrap-sass'
 
 group :development, :test do
-  gem 'rspec-rails', '2.11.0'
-  gem 'guard-rspec', '1.2.1'
-  gem 'guard-spork', '1.2.0'
-  gem 'spork', '0.9.2'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '3.2.6'
-  gem 'coffee-rails', '3.2.2'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-  gem 'uglifier', '2.0.1'
-end
-
-gem 'jquery-rails', '2.2.1'
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
+gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -44,17 +32,17 @@ gem 'jquery-rails', '2.2.1'
 # Use unicorn as the app server
 gem 'unicorn', '4.6.2'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
-#
 
 group :test do
-  gem 'capybara', '1.1.2'
-  gem 'rb-inotify', '0.9.0'
-  gem 'libnotify', '0.5.9'
+  gem 'capybara'
+  gem 'rb-inotify'
+  gem 'libnotify'
 end
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
+
+
 
 
