@@ -1,0 +1,8 @@
+fr:
+  layouts:
+    header:
+      welcome: "Acceuil"
+      services: "Services" 
+      realizations: "Réalizations"
+      resources: "Ressources"
+      contacts: "Contactez-nous"

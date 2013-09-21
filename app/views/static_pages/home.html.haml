@@ -1,26 +1,19 @@
 .row-fluid.hero-unit
   .span8
     %h1
-      Qui sommes-nous?
-    %p
-      Créé en 2006, GRAIN est un bureau d’études spécialisé dans les
-      domaines de la géologie, de l’hydrogéologie, de la géophysique et de la
-      géotechnique.
-    %p
-      Disposant d’outils géophysiques et appareils de mesure à la pointe, GRAIN
-      peut répondre avec une extrême réactivité à toute demande des particuliers,
-      entreprises ou organisations de service public.
+      = t('.title')
+    %p= simple_format t('.who_are_we')
 
   .span4
     = render('static_pages/carousel')
 
 .row-fluid 
   .span4.center
-    %a.btn.btn-large.btn-primary.btn-block{:href => "/services"} Nos services
+    %a.btn.btn-large.btn-primary.btn-block{:href => services_path }= t('.our_services')
   .span4.center
     %p
-      %a.btn.btn-large.btn-primary.btn-block{:href => "/realisations"} Nos réalisations
+      %a.btn.btn-large.btn-primary.btn-block{:href => realisations_path }= t('.our_realizations')
   .span4.center
     %p
-      %a.btn.btn-large.btn-primary.btn-block{:href => "/resources"} Nos moyens
+      %a.btn.btn-large.btn-primary.btn-block{:href => resources_path }=  t('.our_resources')
 

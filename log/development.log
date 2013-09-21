@@ -45164,3 +45164,3966 @@ Processing by StaticPagesController#resources as HTML
   Rendered layouts/_header.html.haml (1.2ms)
   Rendered layouts/_footer.html.haml (0.1ms)
 Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:12:35 +0200
+
+SyntaxError (/home/ckyony/repo/grain-geo/config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+    root 'static_pages#home', as 'home'
+                                  ^):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:222:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:222:in `block in load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:213:in `load_dependency'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:222:in `load'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.0.0) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.0.0) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.0.0) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.0.0) lib/rails/application/finisher.rb:81:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:397:in `_run__3957725886553843870__prepare__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:62:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:13:49 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (15.9ms)
+  Rendered static_pages/home.html.haml within layouts/application (30.3ms)
+  Rendered layouts/_header.html.haml (8.1ms)
+  Rendered layouts/_analytics.html.erb (2.9ms)
+  Rendered layouts/_footer.html.haml (7.1ms)
+Completed 200 OK in 712ms (Views: 709.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:50 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:51 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.9ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.8ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.4ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:13:56 +0200
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 19:14:00 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.9ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.4ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:14:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:14:01 +0200
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2013-09-20 19:15:08 +0200
+Processing by Rails::InfoController#routes as HTML
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (74.3ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/railties-4.0.0/lib/rails/templates/rails/info/routes.html.erb within layouts/application (86.3ms)
+Completed 200 OK in 97ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.1ms)
+  Rendered layouts/_header.html.haml (3.0ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:28 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+fr translation not available
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (2.5ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.5ms)
+Completed 200 OK in 48ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:39 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:40 +0200
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 19:20:45 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (84.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (94.1ms)
+  Rendered layouts/_header.html.haml (8.2ms)
+  Rendered layouts/_analytics.html.erb (0.8ms)
+  Rendered layouts/_footer.html.haml (4.9ms)
+Completed 200 OK in 139ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:20:46 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 19:21:18 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (15.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (31.7ms)
+  Rendered layouts/_header.html.haml (8.5ms)
+  Rendered layouts/_analytics.html.erb (0.9ms)
+  Rendered layouts/_footer.html.haml (5.0ms)
+Completed 200 OK in 426ms (Views: 415.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:19 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:21:19 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:21:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:21:20 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 19:48:53 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 4ms
+
+I18n::InvalidLocaleData (can not load translations from /home/ckyony/repo/grain-geo/config/locales/fr.yml: expects it to return a hash, but does not):
+  app/controllers/application_controller.rb:9:in `set_i18n_locale_from_params'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 19:49:51 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 10ms
+
+I18n::InvalidLocaleData (can not load translations from /home/ckyony/repo/grain-geo/config/locales/fr.yml: expects it to return a hash, but does not):
+  app/controllers/application_controller.rb:9:in `set_i18n_locale_from_params'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:49:54 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (17.1ms)
+  Rendered static_pages/home.html.haml within layouts/application (33.0ms)
+  Rendered layouts/_header.html.haml (15.2ms)
+Completed 500 Internal Server Error in 415ms
+
+ActionView::Template::Error (can not load translations from /home/ckyony/repo/grain-geo/config/locales/fr.yml: expects it to return a hash, but does not):
+     6:           %img.logo{:src => '/assets/logo-grain.jpg', :height => '20px'}
+     7:         %nav.nav-pills
+     8:           %ul.nav.pull-right
+     9:             %li= link_to t('.welcome'), root_path
+    10:             %li= link_to t('.services'), services_path
+    11:             %li= link_to t('.realisations'), realisations_path
+    12:             %li= link_to t('.resources'), resources_path
+  app/views/layouts/_header.html.haml:9:in `_app_views_layouts__header_html_haml___341010725262131262_70235940770380'
+  app/views/layouts/application.html.haml:9:in `_app_views_layouts_application_html_haml___81664351267773155_70235940627000'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:53:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.2ms)
+  Rendered layouts/_header.html.haml (33.0ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_footer.html.haml (1.9ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:53:32 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:54:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (15.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (31.8ms)
+  Rendered layouts/_header.html.haml (18.4ms)
+  Rendered layouts/_analytics.html.erb (1.0ms)
+  Rendered layouts/_footer.html.haml (5.1ms)
+Completed 200 OK in 435ms (Views: 432.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:47 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:54:48 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:56:27 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (16.1ms)
+  Rendered static_pages/home.html.haml within layouts/application (32.4ms)
+  Rendered layouts/_header.html.haml (17.7ms)
+  Rendered layouts/_analytics.html.erb (0.9ms)
+  Rendered layouts/_footer.html.haml (4.9ms)
+Completed 200 OK in 432ms (Views: 429.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:56:28 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (5.2ms)
+  Rendered static_pages/home.html.haml within layouts/application (10.7ms)
+  Rendered layouts/_header.html.haml (5.4ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_footer.html.haml (1.5ms)
+Completed 200 OK in 147ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:15 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:57:16 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:58:45 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (15.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (31.7ms)
+  Rendered layouts/_header.html.haml (17.6ms)
+  Rendered layouts/_analytics.html.erb (0.9ms)
+  Rendered layouts/_footer.html.haml (4.9ms)
+Completed 200 OK in 423ms (Views: 420.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:46 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.9ms)
+  Rendered layouts/_header.html.haml (3.4ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:58:59 +0200
+
+
+Started GET "/en/" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (14.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (25.5ms)
+  Rendered layouts/_header.html.haml (9.6ms)
+  Rendered layouts/_analytics.html.erb (0.8ms)
+  Rendered layouts/_footer.html.haml (5.0ms)
+Completed 200 OK in 73ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 19:59:18 +0200
+
+
+Started GET "/en/" for 127.0.0.1 at 2013-09-20 19:59:59 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.2ms)
+  Rendered layouts/_header.html.haml (3.4ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.7ms)
+Completed 200 OK in 47ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 20:00:00 +0200
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 20:01:37 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (10.2ms)
+  Rendered static_pages/home.html.haml within layouts/application (18.3ms)
+  Rendered layouts/_header.html.haml (5.7ms)
+  Rendered layouts/_analytics.html.erb (0.5ms)
+  Rendered layouts/_footer.html.haml (3.1ms)
+Completed 200 OK in 47ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/services" for 127.0.0.1 at 2013-09-20 20:01:40 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/services.html.haml within layouts/application (12.7ms)
+  Rendered layouts/_header.html.haml (3.8ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (2.2ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/services" for 127.0.0.1 at 2013-09-20 20:01:41 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/services.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.9ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (2.5ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/realisations" for 127.0.0.1 at 2013-09-20 20:01:43 +0200
+Processing by StaticPagesController#realisations as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/realisations.html.haml within layouts/application (9.6ms)
+  Rendered layouts/_header.html.haml (2.5ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.4ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/contact" for 127.0.0.1 at 2013-09-20 20:01:46 +0200
+Processing by StaticPagesController#contact as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/contact.html.haml within layouts/application (9.4ms)
+  Rendered layouts/_header.html.haml (3.8ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (2.3ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2013-09-20 20:01:53 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered static_pages/_carousel.html.haml (2.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (4.8ms)
+  Rendered layouts/_header.html.haml (3.4ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (2.0ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (3.4ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.5ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 20:02:01 +0200
+
+
+Started GET "/fr/realisations" for 127.0.0.1 at 2013-09-20 20:02:05 +0200
+Processing by StaticPagesController#realisations as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/realisations.html.haml within layouts/application (9.4ms)
+  Rendered layouts/_header.html.haml (8.8ms)
+  Rendered layouts/_analytics.html.erb (0.8ms)
+  Rendered layouts/_footer.html.haml (4.9ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/contact" for 127.0.0.1 at 2013-09-20 20:02:08 +0200
+Processing by StaticPagesController#contact as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/contact.html.haml within layouts/application (7.5ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/contact" for 127.0.0.1 at 2013-09-20 20:02:12 +0200
+Processing by StaticPagesController#contact as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/contact.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-20 20:02:22 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (14.1ms)
+  Rendered static_pages/home.html.haml within layouts/application (23.2ms)
+  Rendered layouts/_header.html.haml (3.3ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:02:24 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (9.0ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:02:26 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.8ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:02:28 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/realisations" for 127.0.0.1 at 2013-09-20 20:02:30 +0200
+Processing by StaticPagesController#realisations as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/realisations.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.4ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.7ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/resources" for 127.0.0.1 at 2013-09-20 20:02:31 +0200
+Processing by StaticPagesController#resources as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/resources.html.haml within layouts/application (79.9ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 111ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/resources" for 127.0.0.1 at 2013-09-20 20:02:34 +0200
+Processing by StaticPagesController#resources as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/resources.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-20 20:02:37 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.0ms)
+  Rendered layouts/_header.html.haml (3.1ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:21:14 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_header.html.haml (2.9ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.7ms)
+Completed 200 OK in 39ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-20 20:21:16 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (9.7ms)
+  Rendered layouts/_header.html.haml (2.9ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.6ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:31:29 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+Completed 500 Internal Server Error in 69ms
+
+I18n::InvalidLocaleData (can not load translations from /home/ckyony/repo/grain-geo/config/locales/fr.yml: #<Psych::SyntaxError: (/home/ckyony/repo/grain-geo/config/locales/fr.yml): did not find expected key while parsing a block mapping at line 11 column 5>):
+  app/controllers/application_controller.rb:9:in `set_i18n_locale_from_params'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:31:29 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+Completed 500 Internal Server Error in 10ms
+
+I18n::InvalidLocaleData (can not load translations from /home/ckyony/repo/grain-geo/config/locales/fr.yml: #<Psych::SyntaxError: (/home/ckyony/repo/grain-geo/config/locales/fr.yml): did not find expected key while parsing a block mapping at line 11 column 5>):
+  app/controllers/application_controller.rb:9:in `set_i18n_locale_from_params'
+
+
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/ckyony/.rvm/gems/ruby-2.0.0-p247@tutorial_rails_4_0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.8ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (8.9ms)
+  Rendered layouts/_header.html.haml (2.9ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.3ms)
+Completed 200 OK in 48ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-20 20:31:54 +0200
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /home/ckyony/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (7.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (15.8ms)
+  Rendered layouts/_header.html.haml (8.6ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_footer.html.haml (2.1ms)
+Completed 200 OK in 218ms (Views: 216.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 16:41:15 +0200
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:46:32 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (6.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (10.4ms)
+  Rendered layouts/_header.html.haml (3.5ms)
+  Rendered layouts/_analytics.html.erb (0.5ms)
+  Rendered layouts/_footer.html.haml (1.9ms)
+Completed 200 OK in 57ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:46:37 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (1.0ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.1ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:46:40 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.1ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-21 16:46:42 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (4.6ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-21 16:46:45 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.2ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 16:46:48 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (0.9ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:46:49 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:46:57 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:46:59 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (0.9ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.4ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:47:03 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.7ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.1ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:48:16 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.7ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-21 16:48:41 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.8ms)
+  Rendered layouts/_header.html.haml (1.8ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/realisations" for 127.0.0.1 at 2013-09-21 16:48:45 +0200
+Processing by StaticPagesController#realisations as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/realisations.html.haml within layouts/application (45.8ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-21 16:48:47 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/_carousel.html.haml (0.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.5ms)
+  Rendered layouts/_header.html.haml (2.2ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.2ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:48:50 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.7ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.3ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-21 16:48:59 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (2.3ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.2ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 16:49:09 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.2ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.1ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-21 16:49:11 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"resources"}
+resources translation not available
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.8ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:49:14 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.8ms)
+  Rendered layouts/_header.html.haml (1.9ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (1.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:49:17 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.2ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:49:19 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.5ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-21 16:49:20 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"resources"}
+resources translation not available
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.5ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/resources" for 127.0.0.1 at 2013-09-21 16:49:25 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"resources"}
+resources translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.0ms)
+  Rendered layouts/_header.html.haml (2.3ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:49:27 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.8ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:49:29 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.7ms)
+  Rendered layouts/_header.html.haml (1.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (15.7ms)
+  Rendered layouts/_header.html.haml (0.9ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.4ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 16:54:42 +0200
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.8ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 16:56:02 +0200
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:56:13 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (8.4ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/realisations" for 127.0.0.1 at 2013-09-21 16:56:18 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"realisations"}
+realisations translation not available
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.3ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:56:20 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.4ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"services"}
+services translation not available
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (6.0ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 16:57:15 +0200
+
+
+Started GET "/fr/services" for 127.0.0.1 at 2013-09-21 16:57:17 +0200
+Processing by StaticPagesController#services as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/services.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (1.6ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 16:59:19 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.8ms)
+  Rendered layouts/_header.html.haml (0.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (5.1ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:00:18 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (1.7ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.4ms)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:02:05 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (5.3ms)
+  Rendered layouts/_header.html.haml (0.8ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:03:36 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (6.7ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:15 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:16 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:05:47 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.3ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.0ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:05:48 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (6.8ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:06:18 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.5ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:29 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.7ms)
+  Rendered static_pages/home.html.haml within layouts/application (4.4ms)
+  Rendered layouts/_header.html.haml (2.0ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.9ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:07:31 +0200
+
+
+Started GET "/fr/realisations" for 127.0.0.1 at 2013-09-21 17:07:33 +0200
+Processing by StaticPagesController#realisations as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/realisations.html.haml within layouts/application (0.1ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:07:36 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (5.3ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.7ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:08:03 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.4ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 20ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:00 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.6ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 20ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:24 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.9ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:29 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:09:40 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.4ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.6ms)
+  Rendered layouts/_header.html.haml (1.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 21ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:41 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.6ms)
+  Rendered static_pages/home.html.haml within layouts/application (3.3ms)
+  Rendered layouts/_header.html.haml (1.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:09:58 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (10.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (14.1ms)
+  Rendered layouts/_header.html.haml (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.8ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:20:55 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.3ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 53ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:21:13 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (8.1ms)
+  Rendered static_pages/home.html.haml within layouts/application (10.5ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 30ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:54 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:24:55 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (8.5ms)
+  Rendered static_pages/home.html.haml within layouts/application (10.9ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:08 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.7ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.5ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.1ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 18ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:31:32 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:32:44 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (6.2ms)
+  Rendered static_pages/home.html.haml within layouts/application (8.1ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:32:45 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (6.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (8.7ms)
+  Rendered layouts/_header.html.haml (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.5ms)
+Completed 200 OK in 60ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:21 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:34:37 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (0.8ms)
+  Rendered static_pages/home.html.haml within layouts/application (2.7ms)
+  Rendered layouts/_header.html.haml (1.1ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:34:38 +0200
+
+
+Started GET "/fr" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered static_pages/_carousel.html.haml (8.2ms)
+  Rendered static_pages/home.html.haml within layouts/application (10.6ms)
+  Rendered layouts/_header.html.haml (1.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_footer.html.haml (0.7ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-21 17:35:11 +0200

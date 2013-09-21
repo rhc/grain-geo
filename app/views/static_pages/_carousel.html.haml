@@ -14,44 +14,37 @@
       .carousel-caption 
         %h4 
           GRAIN
-        %p
-          Géologie Recherches Applications et Industries,<br>
-          votre partenaire dans le Copperbelt du Katanga, RD Congo
+        %p= simple_format t('.partner')
     .item
       %img{:alt => "", :src => '/assets/echantillon-kanenge.jpg' }
       .carousel-caption 
         %h4 
           Kanunka
-        %p
-          Géologue GRAIN échantillonnant une roche
+        %p= t('.kanunka')
     .item
       %img{:alt => "", :src => '/assets/tranchees-nguba-buzango.jpg' }
       .carousel-caption 
         %h4 
           Nguba
-        %p
-          Tranchées pour le compte de BAZANO
+        %p= t('.nguba')
     .item
       %img{:alt => "", :src => '/assets/sondage-mabende.jpg' }
       .carousel-caption 
         %h4 
           Mabende
-        %p
-          Supervision des travaux de sondages pour BAZANO
+        %p= t('.mabende')
     .item
       %img{:alt => "", :src => '/assets/puits.jpg' }
       .carousel-caption 
         %h4 
           Bosanga
-        %p
-          Puits de prospection
+        %p= t('.bosanga')
     .item
       %img{:alt => "", :src => '/assets/prospection-busanga-minalex.jpg' }
       .carousel-caption 
         %h4 
           Busanga
-        %p
-          Prospection pour le compte de MINALEX
+        %p= t('.busanga')
 
   <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>

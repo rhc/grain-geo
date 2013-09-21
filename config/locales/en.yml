@@ -1,5 +1,18 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  layouts:
+    header:
+      welcome: "Welcome"
+      services: "Services" 
+      realizations: "Realizations"
+      resources: "Resources"
+      contacts: "Contact us"
+
+  static_pages:
+    home: 
+      who_are_we: "Who are we?"
+      who_are_we_p1: "Established in 2006, GRAIN is a consulting firm specializing in Geology, hydrogeology, geophysics and geotechnique."
+      who_are_we_p2: "With geophysical tools and measuring devices at the forefront, GRAIN may respond with extreme responsiveness to requests from individuals, companies and public service organizations."
+      our_services: "Our services"
+      our_realizations: "Our realizations"
+      our_resources: "Our resources"
+

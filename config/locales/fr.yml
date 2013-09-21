@@ -1,0 +1,45 @@
+fr:
+  layouts:
+    header:
+      welcome: "Acceuil"
+      services: "Services" 
+      realizations: Réalisations
+      resources: "Ressources"
+      contacts: "Contactez-nous"
+      
+  static_pages:
+    home: 
+      title: "Qui sommes-nous?"
+      who_are_we: | 
+        
+        Créé en 2006, GRAIN est un bureau d’études spécialisé dans les domaines de la géologie, de l’hydrogéologie, de la géophysique et de la géotechnique.
+
+        Disposant d’outils géophysiques et appareils de mesure à la pointe, 
+        GRAIN peut répondre avec une extrême réactivité à toute demande 
+        des particuliers, entreprises ou organisations de service public.
+
+      our_services: "Nos services"
+      our_realizations: "Nos réalisations"
+      our_resources: "Nos moyens"
+
+    carousel:
+      partner: |
+        Géologie Recherches Applications et Industries,
+
+        votre partenaire dans le Copperbelt du Katanga, RD Congo 
+
+      kanunka: 
+        Géologue GRAIN échantillonnant une roche
+
+      busanga:
+        Prospection pour le compte de MINALEX 
+
+      nguba:
+        Tranchées pour le compte de BAZANO
+
+      mabende:
+        Supervision des travaux de sondages pour BAZANO 
+
+      bosanga:
+        Puits de prospection
+

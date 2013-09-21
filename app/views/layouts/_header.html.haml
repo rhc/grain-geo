@@ -6,9 +6,9 @@
           %img.logo{:src => '/assets/logo-grain.jpg', :height => '20px'}
         %nav.nav-pills
           %ul.nav.pull-right
-            %li= link_to "Accueil", root_path
-            %li= link_to "Services", services_path
-            %li= link_to "Réalisations", realisations_path
-            %li= link_to "Ressources", resources_path
-            %li= link_to "Contacts", contact_path
+            %li= link_to t('.welcome'), root_path
+            %li= link_to t('.services'), services_path
+            %li= link_to t('.realisations'), realisations_path
+            %li= link_to t('.resources'), resources_path
+            %li= link_to t('.contacts'), contact_path
 
