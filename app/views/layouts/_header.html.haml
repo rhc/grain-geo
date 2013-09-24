@@ -1,13 +1,13 @@
 %body
-  %header.navbar.navbar-fixed-top
-    .navbar-inner
+  .container
+    %a.brand{:href => root_path }
+      %img.logo{:src => '/assets/logo-grain.jpg', height:  '20px'}
+      .locale
+        = link_to_unless I18n.locale == :en, "English", locale: :en
+        = link_to_unless I18n.locale == :fr, "Fran&ccedil;ais".html_safe, locale: :fr
+    .navbar.navbar-inner
       .container
-        %a.brand{:href => root_path }
-          %img.logo{:src => '/assets/logo-grain.jpg', height:  '20px'}
-        .banner
-          = link_to_unless I18n.locale == :en, "English", locale: :en
-          = link_to_unless I18n.locale == :fr, "Fran&ccedil;ais".html_safe, locale: :fr
-        %nav.nav-pills
+        .nav
           %ul.nav.pull-right
             %li= link_to t('.welcome'), root_path
             %li= link_to t('.services'), services_path
