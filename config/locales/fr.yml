@@ -3,12 +3,12 @@ fr:
     header:
       welcome: "Acceuil"
       services: "Services" 
-      realizations: Réalisations
+      realizations: "Réalisations"
       resources: "Ressources"
       contacts: "Contactez-nous"
       
   static_pages:
-    home: 
+    home:
       title: "Qui sommes-nous?"
       who_are_we: | 
         
@@ -42,4 +42,101 @@ fr:
 
       bosanga:
         Puits de prospection
+
+    services:
+      title:
+        Services et compétences 
+      offers: |
+        
+        Idéalement basé dans le Copperbelt du Katanga, GRAIN peut assurer la gestion globale de tout projet géologique et minier depuis les prospections préliminaires jusqu'à l'exécution d'un chantier.
+
+        Outre le domaine de la Géologie, GRAIN est en mesure de mener des études et des recherches dans les domaines en rapport avec le sol et le sous-sol, notamment: mines, topographie, sondages, environnement, hydrologie.
+
+        Pour les sociétés désireuses d’obtenir des droits et avantages miniers en République Démocratique du Congo, GRAIN pourra servir de mandataires auprès du ministère des mines et hydrocarbures via le cadastre minier.
+
+      our_services: Nos services
+      our_competencies: Nos compétences
+
+      service_list:  |
+        Exploration et la prospection géologique
+        Études pétrographiques et minéralogiques
+        Documentation géologique
+        Cartographie géologique
+        Élaboration et l’exécution des programmes de prospections géologiques
+        Supervision des travaux de sondage.
+        Évaluation de ressources et réserves minérales
+        Études de pré-faisabilités et de faisabilité
+        Consultance et conseils en géologie
+
+      competency_list: |
+        Opérations de sélectivité dans les exploitations minières 
+        Études d’aménagement environnemental 
+        Recherches d’eaux potable et industrielle 
+        Assistance dans les opérations topographiques 
+        Création et gestion des industries dans les domaines miniers, les sondages, la mécanique et l’agriculture
+
+    realisations:
+      title: 
+        Quels sont les travaux réalisés et projets en cours?
+
+      description: |
+        GRAIN a mené et continue depuis 2006 a presté avec succès les campagnes de prospection pour le GROUPE BAZANO, LEREXCOM, CHEMAF, etc. Par ailleurs, GRAIN est consultant en géologie pour plusieurs autres entreprises minières, notamment CDM, RUBAMIN , MINALEX , CAM Resources, etc.
+
+        Nous avons un contrat de partenariat avec une société chinoise C.N.G.S pour les marchés do forage, pour la prospection en profondeur. 
+      
+      professionalism_title: 
+        Professionalisme
+
+      professionalism: 
+        Pour la réussite de ses campagnes de prospection, GRAIN privilégie une coopération de haut niveau entre son personnel et celui du Maître de l’Ouvrage. 
+
+      work_title:
+        Conduite des travaux 
+
+      work: |
+        Pour la bonne conduite des travaux sur le terrain, les géologues sont en permanence sur le chantier avec des visites régulières du chef de projet. Un campement adéquat est organisé pour répondre aux conditions de sécurité requise et à la restauration de l’équipe en vue de garantir un bon rendement dans le délai convenable.
+
+        Les assistants géologues sont recrutés parmi les meilleurs ex Gécamines, et les journaliers sont recrutés sur place en fonction du projet pour garder une intégration des populations environnantes. 
+
+      report_title:
+        Rapport des travaux
+      
+      report: 
+        Pour chaque projet GRAIN présente des rapports mensuels réguliers et
+        intermédiaires pour permettre au Maître de l’ouvrage de faire ses
+        observations avant le rapport final, et d’autres communications
+        régulières sont maintenus par téléphone, mails et fax. 
+
+
+    resources:
+      title: 
+        Quels sont nos atouts et nos moyens?
+      resource_list: |
+        L'expertise reconnue sur l'échiquier national et international de nos geologues
+        Une équipe logistique passionnée par le travail de terrain
+        Des équipements adéquats
+        Des logiciels de pointe
+
+      personel_title:
+        Personnel
+
+      personel: |
+        L’équipe GRAIN est composée d’un noyau des géologues seniors et juniors, et peut mobiliser d’autres experts qualifiés et expérimentés dans tous les domaines de la géologie, en fonction de chaque projet.
+
+        Ces personnes dont la plupart sont des anciens de la Gécamines ont une longue expérience possédant une très bonne connaissance de la géologie du KATANGA pour avoir œuvré durant plusieurs années dans la recherche géologique. La moyenne a plus de 20 ans d’expérience dans les techniques de prospection géologique de la Province du Katanga en particulier, et celle de la R.D.CONGO en général. 
+
+      equipment_title:
+        Equipments
+
+      equipment: |
+
+        GRAIN possède le matériel nécessaire à la prospection géologiques sur terrain, à savoir deux véhicules 4 x 4, GPS, marteaux de géologue, boussoles, et autres ; ainsi que les outils informatiques nécessaire à la réalisation des travaux de bureau, entre autre une banque de données géologiques, cartographiques à différentes échelles sur la Province du Katanga plus particulièrement, et sur l’étendue de la R.D.CONGO, et des logiciels de cartographie. 
+
+    contact:
+      title:
+        Contactez-nous  aux addresses suivantes
+      manager:
+        Gérant
+      senior_consultant:
+        Senior consultant
 

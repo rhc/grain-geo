@@ -3,16 +3,135 @@ en:
     header:
       welcome: "Welcome"
       services: "Services" 
-      realizations: "Realizations"
+      realisations: "Realizations"
       resources: "Resources"
       contacts: "Contact us"
-
+      
   static_pages:
-    home: 
-      who_are_we: "Who are we?"
-      who_are_we_p1: "Established in 2006, GRAIN is a consulting firm specializing in Geology, hydrogeology, geophysics and geotechnique."
-      who_are_we_p2: "With geophysical tools and measuring devices at the forefront, GRAIN may respond with extreme responsiveness to requests from individuals, companies and public service organizations."
+    home:
+      title: "Who are we?"
+      who_are_we: | 
+        
+        Established in 2006, GRAIN is a consulting firm specializing in the fields of geology, hydrogeology, geophysics and geotechnical.
+        With geophysical tools and measuring devices at the tip,
+        
+        GRAIN may respond with a highly responsive to any request individuals, companies and public service organizations.
+
       our_services: "Our services"
-      our_realizations: "Our realizations"
+      our_realizations: "Our achievements"
       our_resources: "Our resources"
+
+    carousel:
+      partner: |
+        Géologie Recherches Applications et Industries,
+
+        your partner in the Katanga copperbelt, DR Congo 
+
+      kanunka: 
+        Géologist sampling a rock
+
+      busanga:
+        Prospecting on behalf of MINALEX 
+
+      nguba:
+        Trenches on behalf of BAZANO
+
+      mabende:
+        Supervision of drilling works for BAZANO 
+
+
+      bosanga:
+        Exploratory wells
+
+    services:
+      title:
+        Services and expertises 
+      offers: |
+        Ideally based in the Copperbelt of Katanga, GRAIN can ensure the overall management of all geological and mining project from preliminary surveys to the execution of a project.
+
+        GRAIN is able to conduct studies and research in the fields related to the soil and subsoil, including: mining, surveying, surveys, environment, hydrology.
+
+        For companies wishing to obtain mining rights and benefits in the Democratic Republic of Congo, GRAIN can serve as brokers from the Ministry of Mines and Hydrocarbons via the mining cadastre.
+
+      our_services: Our services
+      our_competencies: Our expertises
+
+      service_list:  |
+       Exploration and geological prospecting
+       Petrographic and mineralogical studies
+       Geological documentation
+       Geological mapping
+       Design and implementation of geological surveys
+       Supervision of drilling works
+       Evaluation of mineral resources and reserves
+       Pre-feasibility and feasibility studies
+       Consultancy and advice in geology
+
+      competency_list: |
+        Selectivity operations in mining
+        Environmental planning studies
+        Searches of drinking and industrial water
+        Assistance in surveying operations
+        Creation and management of industries in the mining areas, surveys, engineering and agriculture
+
+    realisations:
+      title: 
+        Past and current projects
+
+      description: |
+
+        Since 2006, GRAIN have conducted successful prospecting for various clients: BAZANO, LEREXCOM, CHEMAF etc.. Moreover, GRAIN is the geological consultant for several mining companies, including CDM, RUBAMIN, MINALEX, CAM Resources, etc..
+
+        We have a partnership agreement with C.N.G.S. a chinese company for drilling works and in depth exploration.
+      
+      professionalism_title: 
+        Professionalism
+
+      professionalism: 
+        For the success of its prospecting campaign, GRAIN promotes a high level of cooperation between its staff and that of the Client.
+
+      work_title:
+        Fieldwork 
+
+      work: |
+        For the proper conduct of fieldwork, geologists are permanently on site with regular visits by the project leader. A suitable camp is organized to meet the security conditions to guarantee the conclusion of the projects in-time.
+
+        Junior geologists are recruited from the best former Gécamines employees. Fieldworkers are recruited locally to promote the integration with the surrounding populations.
+
+      report_title:
+        Reporting
+      
+      report: 
+        For each project GRAIN has regular monthly and adhoc reports to allow the Client to make comments before the final report. Other regular communications are maintained by telephone, mail and fax.
+
+    resources:
+      title: 
+        What are our strengths?
+      resource_list: |
+        Recognized expertise on the national and international scene 
+        Passionate logistics team and dedicated field workers
+        Adequate equipment
+        Advanced GIS and statistical software
+      personel_title:
+        Personnel
+
+      personel: |
+       The team consists of a core of senior and junior geologists, and can mobilize other qualified experts in all fields of geology, depending on each project.
+
+        The majority of our staff are former Gécamines have extensive experience with a very good knowledge of the geology of Katanga in particular and the DR Congo in general. 
+
+
+      equipment_title:
+        Equipments
+
+      equipment: |
+        GRAIN has the necessary prospecting field equipment, namely two 4 x 4 vehicles, GPS, geologist hammers, compasses, and other, as well as computer tools necessary for the office work, among others, a bank geological, mapping at different scales of Katanga Province in particular, and the extent of RDCONGO, and GIS mapping software.
+
+    contact:
+      title:
+        Contact us
+      manager:
+        Manager
+      senior_consultant:
+        Senior consultant
 

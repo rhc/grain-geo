@@ -2,8 +2,11 @@
   %header.navbar.navbar-fixed-top
     .navbar-inner
       .container
-        %a.brand{:href => '/'}
-          %img.logo{:src => '/assets/logo-grain.jpg', :height => '20px'}
+        %a.brand{:href => root_path }
+          %img.logo{:src => '/assets/logo-grain.jpg', height:  '20px'}
+        .banner
+          = link_to_unless I18n.locale == :en, "English", locale: :en
+          = link_to_unless I18n.locale == :fr, "Fran&ccedil;ais".html_safe, locale: :fr
         %nav.nav-pills
           %ul.nav.pull-right
             %li= link_to t('.welcome'), root_path
